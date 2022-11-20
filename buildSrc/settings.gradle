@@ -1,5 +1,7 @@
 pluginManagement {
 	repositories {
+		//加上阿里云镜像
+		mavenLocal();
 		mavenCentral()
 		gradlePluginPortal()
 	}
